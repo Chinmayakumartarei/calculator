@@ -2,21 +2,36 @@
     margin: 0%;
     padding: 0%;
 }
-
 body{
-    background-color: aqua;
+    text-align: center;
+    background-color: rgb(255, 129, 129);
+}
+
+#contener{
+    height: 70vh;
+    display: flex;
     justify-content: center;
     align-items: center;
 
 }
-#contener{
+#calculator{
     height: 70vh;
     width: 70vh;
-    background-color: brown;
+
+   
 }
-#calculator{
-    height: 68vh;
-    width: 68vh;
-    background-color: chartreuse;
-    
+
+#display{
+    background-color: rgb(235, 169, 89);
+    height: 13.6vmin;
+    width: 68vmin;
+    border-radius: 0.7rem;
+}
+.buttons{
+    height: 13.9vmin;
+    width: 16.7vmin;
+    border-radius: 0.5rem;
+    border-color: black;
+    box-shadow: 0,0,0.8 rgba(rgb(47, 160, 24), green, rgb(61, 61, 136), alpha);
+    gap: 0px;
 }
